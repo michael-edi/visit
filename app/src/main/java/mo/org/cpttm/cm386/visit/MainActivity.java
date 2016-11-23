@@ -44,7 +44,7 @@ public class MainActivity extends ListActivity {
         }
 
         data= new ArrayList<String>();
-        CarOpenHelper carOpenHelper = new CarOpenHelper(this);
+        FriendOpenHelper carOpenHelper = new FriendOpenHelper(this);
         SQLiteDatabase db = carOpenHelper.getReadableDatabase();
         Cursor c = db.rawQuery("SELECT ID, NAME, LOCATION, MEMO,LATITUDE,LONGITUDE FROM FRIEND", null);
         friendIds=new int[c.getCount()];

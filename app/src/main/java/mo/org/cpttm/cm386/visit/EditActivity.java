@@ -15,7 +15,7 @@ import android.widget.Toast;
 import static java.lang.Double.parseDouble;
 
 public class EditActivity extends Activity {
-    CarOpenHelper mydb = new CarOpenHelper(this);
+    FriendOpenHelper mydb = new FriendOpenHelper(this);
     int id_To_Update ;
     EditText fname;
     EditText location;

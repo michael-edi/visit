@@ -14,7 +14,7 @@ import android.widget.TextView;
 import android.database.Cursor;
 
 public class ItemActivity extends Activity {
-    CarOpenHelper mydb = new CarOpenHelper(this);
+    FriendOpenHelper mydb = new FriendOpenHelper(this);
     int id_To_Update ;
     TextView textName;
     TextView textLocation;

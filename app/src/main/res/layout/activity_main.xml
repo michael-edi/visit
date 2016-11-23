@@ -8,12 +8,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="mo.org.cpttm.cm386.sqlitedemo.MainActivity">
+    tools:context="mo.org.cpttm.cm386.visit.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No Song in SD Card"
+        android:text="No friends"
         android:id="@id/android:empty"/>
 
     <ListView
@@ -22,10 +22,27 @@
         android:layout_weight="1"
         android:id="@id/android:list"/>
 
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add"
         android:id="@+id/btnAdd"
         android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find"
+        android:id="@+id/btnFind"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <CheckBox
+        android:text="Show friends near here (&lt;200m) only"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbNearOnly" />
+
 </LinearLayout>

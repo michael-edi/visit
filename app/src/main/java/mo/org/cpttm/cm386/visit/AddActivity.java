@@ -16,7 +16,7 @@ import static java.lang.Double.parseDouble;
 
 
 public class AddActivity extends FragmentActivity {
-    CarOpenHelper mydb = new CarOpenHelper(this);
+    FriendOpenHelper mydb = new FriendOpenHelper(this);
     EditText fname;
     EditText location;
     EditText memo;

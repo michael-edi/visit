@@ -1,1 +1,1 @@
-# SQLiteDemo
+# Visit friends Project
