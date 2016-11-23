@@ -83,13 +83,13 @@
                 android:id="@+id/photoResultView" />
 
             <Button
-                android:text="PICTURE"
+                android:text="Take a picture"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnPicture" />
 
             <Button
-                android:text="LOCATION"
+                android:text="Take current location"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnLocation" />
