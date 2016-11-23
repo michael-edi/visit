@@ -1,4 +1,4 @@
-package mo.org.cpttm.cm386.sqlitedemo;
+package mo.org.cpttm.cm386.visit;
 
 import org.junit.Test;
 

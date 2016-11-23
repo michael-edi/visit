@@ -1,4 +1,4 @@
-package mo.org.cpttm.cm386.sqlitedemo;
+package mo.org.cpttm.cm386.visit;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
